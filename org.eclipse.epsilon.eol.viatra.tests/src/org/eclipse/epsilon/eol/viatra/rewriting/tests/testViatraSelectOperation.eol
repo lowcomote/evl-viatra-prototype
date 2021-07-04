@@ -1,0 +1,11 @@
+model imdb driver ViatraEMF {
+nsuri = "http://movies/1.0"
+};
+"--------------------".println();
+
+//select
+var a = imdb!Movie.all.select(m|m.year == 2010);
+var b = imdb!Movie.all.select(m|m.year <= 2010);
+var c = imdb!Movie.all.select(m|m.year <> 2010);
+
+return Sequence{a.size(),b.size(),c.size()};

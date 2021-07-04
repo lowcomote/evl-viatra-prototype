@@ -1,0 +1,11 @@
+model imdb driver ViatraEMF {
+	nsuri = "http://movies/1.0"
+};
+
+var movie = imdb!Movie.all.selectOne(m|m.title="1989 Holiday Bowl").println();
+var numberOfActorsInMovie1989HolidayBowl = imdb!Actor.all.count(a|a.movies = movie);
+
+var actor = imdb!Actor.all.selectOne(a|a.name="Giannino, Jamie");
+var actorWasInMovie = imdb!Movie.all.exists(m|m.persons=actor and m.title="4 ragazze sognano" and m.year = 1943).println();
+
+return Sequence{numberOfActorsInMovie1989HolidayBowl, actorWasInMovie};

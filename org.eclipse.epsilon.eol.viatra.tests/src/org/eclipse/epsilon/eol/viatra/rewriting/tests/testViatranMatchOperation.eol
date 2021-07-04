@@ -1,0 +1,9 @@
+model imdb driver ViatraEMF {
+nsuri = "http://movies/1.0"
+};
+"--------------------".println();
+
+//nMatch
+var a = imdb!Movie.all.nMatch(m|m.year == 2010, 10);
+var b = imdb!Movie.all.nMatch(m|m.year <= 2010, 10);
+var c = imdb!Movie.all.nMatch(m|m.year <> 2010, 10);

@@ -1,0 +1,22 @@
+model Java driver ViatraEMF {
+	nsuri = "http://www.eclipse.org/MoDisco/Java/0.2.incubation/java"
+};
+
+context Java!ImportDeclaration {
+	constraint allImportsAreUsed {
+		check: Java!NamedElement.all.exists(ne | ne.originalCompilationUnit = self.originalCompilationUnit and ne.usagesInImports = self)
+	}
+}
+
+context Java!VariableDeclaration {
+	constraint variableIsUsed {
+		check: Java!SingleVariableAccess.all.exists(sva|sva.variable=self)
+	}
+}
+
+
+context CatchClause {
+	constraint exceptionIsUsed {
+		check: Java!SingleVariableAccess.all.exists(sva|sva.variable=self.exception)
+	}
+}

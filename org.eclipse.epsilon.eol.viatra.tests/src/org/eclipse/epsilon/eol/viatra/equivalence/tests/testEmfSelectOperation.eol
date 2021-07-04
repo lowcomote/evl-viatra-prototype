@@ -1,0 +1,11 @@
+model imdb driver EMF {
+nsuri = "http://movies/1.0"
+};
+"--------------------".println();
+
+var a = imdb!Movie.all.select(m|m.year == 2010);
+var b = imdb!Movie.all.select(m|m.year < 2010);
+var c = imdb!Movie.all.select(m|m.year > 2010);
+var d = imdb!Movie.all.select(m|m.year <> 2010);
+
+return Sequence{a.size(),b.size(),c.size(),d.size()};

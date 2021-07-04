@@ -1,0 +1,9 @@
+model imdb driver ViatraEMF {
+nsuri = "http://movies/1.0"
+};
+"--------------------".println();
+
+var a = imdb!Movie.all.none(m|m.title="15 Seconds" and m.year = 2010);
+var b = imdb!Movie.all.none(m|m.title="15 Seconds" and m.year = 2009);
+
+return Sequence{a,b};

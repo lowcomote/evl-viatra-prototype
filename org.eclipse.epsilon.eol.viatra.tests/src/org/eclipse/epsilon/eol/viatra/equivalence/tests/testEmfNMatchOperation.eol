@@ -1,0 +1,11 @@
+model imdb driver EMF {
+nsuri = "http://movies/1.0"
+};
+"--------------------".println();
+
+var a = imdb!Movie.all.nMatch(m|m.title="15 Seconds" and m.year = 2010, 1);
+var b = imdb!Movie.all.nMatch(m|m.title="15 Seconds" and m.year = 2009, 0);
+var c = imdb!Movie.all.nMatch(m|m.title="15 Seconds", 2);
+var d = imdb!Movie.all.nMatch(m|m.year==2010, 605);
+
+return Sequence{a,b,c,d};

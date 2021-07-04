@@ -1,0 +1,9 @@
+model imdb driver ViatraEMF {
+nsuri = "http://movies/1.0"
+};
+"--------------------".println();
+
+//count
+var a = imdb!Movie.all.count(m|m.year == 2010);
+var b = imdb!Movie.all.count(m|m.year <= 2010);
+var c = imdb!Movie.all.count(m|m.year <> 2010);

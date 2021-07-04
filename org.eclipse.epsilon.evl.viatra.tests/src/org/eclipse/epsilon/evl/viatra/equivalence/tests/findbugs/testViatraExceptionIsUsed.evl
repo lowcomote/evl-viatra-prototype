@@ -1,0 +1,19 @@
+//see http://findbugs.sourceforge.net/bugDescriptions.html
+
+// WARNING: Very demanding!
+model Java driver ViatraEMF {
+	nsuri = "http://www.eclipse.org/MoDisco/Java/0.2.incubation/java",
+	optimise = "false"
+};
+pre{
+}
+
+context CatchClause {
+	constraint exceptionIsUsed {
+		check: Java!SingleVariableAccess.all.exists(sva|sva.variable=self.exception)
+		/*check { 
+			var svasWithSelfExceptionAsVariable = Java!SingleVariableAccess.all.select(sva|sva.variable=self.exception);
+			return svasWithSelfExceptionAsVariable.notEmpty();
+		}*/
+	}
+}

@@ -1,0 +1,8 @@
+model imdb driver EMF {
+nsuri = "http://movies/1.0"
+};
+context imdb!Movie {
+constraint movies2009ArePresent {
+check: imdb!Movie.all.exists(m|m.year == 2030)
+}
+}

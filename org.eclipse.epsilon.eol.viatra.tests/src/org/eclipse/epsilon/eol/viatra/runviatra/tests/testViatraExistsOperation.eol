@@ -1,0 +1,11 @@
+model imdb driver ViatraEMF {
+nsuri = "http://movies/1.0"
+};
+"--------------------".println();
+
+var a = imdb!Movie.all.exists(m|m.year == 2010 and m.title == "$9.50");
+var b = imdb!Movie.all.exists(m|m.year < 2010 and m.title == "$500 Reward");
+var c = imdb!Movie.all.exists(m|m.year > 2010 and m.title == "$52 Dick Switch");
+var d = imdb!Movie.all.exists(m|m.year <> 2010);
+
+return Sequence{a,b,c,d};

@@ -1,0 +1,32 @@
+model movies driver ViatraEMF {
+	nsuri = "http://movies/1.0"
+};
+
+for (i in Sequence{1..100}) {
+	// simple query
+	movies!Movie.all.select(m|m.year == 2010).println("Movies from 2010: ");
+	movies!Movie.all.selectOne(m|m.year == 2010).println("One movie from 2010: ");
+	
+	movies!Movie.all.reject(m|m.year == 2010).println("Movies not in 2010: ");
+	movies!Movie.all.exists(m|m.year == 2010).println("There is a movie in 2010: ");
+	movies!Movie.all.none(m|m.year == 2010).println("There is no movie in 2010: ");
+	movies!Movie.all.one(m|m.year == 2010).println("There is only one movie in 2010: ");
+	movies!Movie.all.count(m|m.year == 2010).println("There are so many movies in 2010: ");
+	
+	movies!Movie.all.atLeastNMatch(m|m.year == 2010, 1).println("At least 1 movie in 2010: ");
+	movies!Movie.all.atMostNMatch(m|m.year == 2010, 10).println("At most 10 movies in 2010: ");
+	movies!Movie.all.nMatch(m|m.year == 2010, 10).println("Exactly 10 movies in 2010: ");
+	
+	movies!Movie.all.forAll(m|m.year == 2010).println("Every movie is from 2010: ");
+	
+	// composite query
+	movies!Movie.all.select(m|m.year >= 2000 and m.year <= 2010 and m.rating >= 7.0).println("Movies between 2000 and 2010 with rating >= 7.0: ");
+	
+	// subquery
+	//var actor = movies!Actor.all.select(a|a.name="Punch, Monkey").first();
+	//movies!Movie.all.select(m|m.persons.includes(actor) and m.rating >= 7.0).println();
+	//movies!Movie.all.select(m|m.persons == movies!Actor.all.select(a|a.name="Punch, Monkey").first() and m.rating >= 7.0).println();
+	
+	// other operations
+	//movies!Movie.all.select(m|not (m.persons.includes(actor) and m.rating >= 7.0)).size().println();
+}

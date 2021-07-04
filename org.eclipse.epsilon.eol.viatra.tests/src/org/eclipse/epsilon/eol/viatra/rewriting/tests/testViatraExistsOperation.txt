@@ -1,0 +1,5 @@
+model imdb driver ViatraEMF {nsuri = "http://movies/1.0"}
+"--------------------".println();
+var a = imdb.runViatra("import \"http://movies/1.0\"\npattern imdb1 (movie: Movie){\nMovie.year(movie,2010);\n}", "imdb1", "hasMatch",,,,);
+var b = imdb.runViatra("import \"http://movies/1.0\"\npattern imdb2 (movie: Movie){\nMovie.year(movie,year0); check(year0<=2010);\n}", "imdb2", "hasMatch",,,,);
+var c = imdb.runViatra("import \"http://movies/1.0\"\npattern imdb3 (movie: Movie){\nneg Movie.year(movie,2010);\n}", "imdb3", "hasMatch",,,,);

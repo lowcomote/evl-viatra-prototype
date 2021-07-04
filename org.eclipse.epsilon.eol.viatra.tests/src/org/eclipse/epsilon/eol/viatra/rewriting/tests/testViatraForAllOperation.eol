@@ -1,0 +1,9 @@
+model imdb driver ViatraEMF {
+nsuri = "http://movies/1.0"
+};
+"--------------------".println();
+
+//forAll
+var a = imdb!Movie.all.forAll(m|m.year == 2010);
+var b = imdb!Movie.all.forAll(m|m.year <= 2010);
+var c = imdb!Movie.all.forAll(m|m.year <> 2010);

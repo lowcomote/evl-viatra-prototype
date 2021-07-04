@@ -1,0 +1,24 @@
+model imdb driver EMF {
+	nsuri = "http://movies/1.0"
+};
+
+var first = 0;
+var second = 0;
+var third = 0;
+var fourth = 0;
+
+for (i:Real in Sequence{7.0, 8.0, 9.0, 10.0}) {
+	var result = imdb!Movie.all.select(m|m.rating = i).size().println();
+	
+	if (i == 7.0) {
+		first = result;
+	} else if( i == 8.0) {
+		second = result;
+	} else if (i == 9.0) {
+		third = result;
+	} else if (i == 10.0) {
+		fourth = result;
+	}
+} 
+
+return Sequence{first, second, third, fourth};

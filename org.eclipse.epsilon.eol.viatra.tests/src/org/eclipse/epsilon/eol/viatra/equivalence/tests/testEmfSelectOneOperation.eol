@@ -1,0 +1,8 @@
+model imdb driver EMF {
+nsuri = "http://movies/1.0"
+};
+"--------------------".println();
+
+var a = imdb!Movie.all.selectOne(m|m.title == "#11: The Issue");
+
+return Sequence{a};

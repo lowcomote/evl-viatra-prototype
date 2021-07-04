@@ -1,0 +1,16 @@
+//see http://findbugs.sourceforge.net/bugDescriptions.html
+
+// WARNING: Very demanding!
+model Java driver ViatraEMF {
+	nsuri = "http://www.eclipse.org/MoDisco/Java/0.2.incubation/java",
+	optimise = "false"
+};
+pre{
+}
+
+// WARNING: Very demanding!
+context Java!ImportDeclaration {
+	constraint allImportsAreUsed {
+		check: Java!NamedElement.all.exists(ne | ne.originalCompilationUnit = self.originalCompilationUnit and ne.usagesInImports = self)
+	}
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.epsilon.common.dt.modelType">
+      <modelType
+            class="org.eclipse.epsilon.eol.viatra.ViatraEmfModel"
+            dialog="org.eclipse.epsilon.eol.viatra.ui.ViatraEmfModelConfigurationDialog"
+            icon="icons/emfm0.gif"
+            label="Viatra EMF Model"
+            stable="true"
+            type="ViatraEMF">
+      </modelType>
+   </extension>
+    <extension point="org.eclipse.ui.views">
+        <view id="org.eclipse.epsilon.eol.viatra.ui.query.QueryRewritingView"
+             name="Query Rewriting"
+             category="org.eclipse.epsilon.dt"
+             class="org.eclipse.epsilon.eol.viatra.ui.query.QueryRewritingView"
+             icon="icons/register.png"/>
+</extension>
+
+</plugin>

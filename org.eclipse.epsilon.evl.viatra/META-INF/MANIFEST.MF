@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Viatra
+Bundle-SymbolicName: org.eclipse.epsilon.evl.viatra;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.eclipse.epsilon.evl.viatra
+Bundle-RequiredExecutionEnvironment: JavaSE-14
+Require-Bundle: org.eclipse.epsilon.eol.engine,
+ org.eclipse.epsilon.evl.engine,
+ org.eclipse.debug.core,
+ org.eclipse.core.runtime,
+ org.eclipse.epsilon.eol.dt,
+ org.eclipse.epsilon.common.dt,
+ org.eclipse.epsilon.evl.staticanalyser,
+ org.eclipse.epsilon.eol.staticanalyser;bundle-version="1.0.0",
+ org.eclipse.epsilon.eol.viatra
+Export-Package: org.eclipse.epsilon.evl.viatra.mapping

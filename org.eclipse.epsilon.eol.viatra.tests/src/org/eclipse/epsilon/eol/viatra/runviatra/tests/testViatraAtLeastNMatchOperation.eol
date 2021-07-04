@@ -1,0 +1,12 @@
+model imdb driver ViatraEMF {
+nsuri = "http://movies/1.0"
+};
+"--------------------".println();
+
+var a = imdb!Movie.all.atLeastNMatch(m|m.title="15 Seconds" and m.year = 2010, 1); // true
+var b = imdb!Movie.all.atLeastNMatch(m|m.title="15 Seconds" and m.year <> 2010, 1); // true (year=2008)
+var c = imdb!Movie.all.atLeastNMatch(m|m.title="15 Seconds", 3); // false
+var d = imdb!Movie.all.atLeastNMatch(m|m.year==2010, 604); // true
+var e = imdb!Movie.all.atLeastNMatch(m|m.year==2010, 606); // false
+
+return Sequence{a,b,c,d,e};

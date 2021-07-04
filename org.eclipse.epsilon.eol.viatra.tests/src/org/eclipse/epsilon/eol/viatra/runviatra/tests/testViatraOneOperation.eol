@@ -1,0 +1,9 @@
+model imdb driver ViatraEMF {
+nsuri = "http://movies/1.0"
+};
+"--------------------".println();
+
+var a = imdb!Movie.all.one(m|m.title="$500 Reward");
+var b = imdb!Movie.all.one(m|m.title="15 Seconds");
+
+return Sequence{a,b};

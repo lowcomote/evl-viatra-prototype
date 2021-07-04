@@ -1,0 +1,529 @@
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 120 MB
+Xmx: 16384 MB
+Starting execution at Jun 26, 2021, 2:13:17 PM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 120 MB
+Xmx: 16384 MB
+Starting execution at Jun 26, 2021, 2:13:32 PM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 120 MB
+Xmx: 16384 MB
+Starting execution at Jun 26, 2021, 2:14:00 PM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 94 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:18:46 PM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 168 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:18:51 PM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 200 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:18:53 PM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 180 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:18:56 PM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 188 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:18:58 PM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 180 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:19:01 PM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 188 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:19:03 PM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 188 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:19:06 PM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 188 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:19:08 PM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 180 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:19:11 PM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 88 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:20:50 PM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 135 (135 ms), 10 MB
+Loading model(s): 02.773 (2773 ms), 65 MB
+GARBAGE_COLLECTION: 286 (286 ms), 0 MB
+execute(): 07.200 (7200 ms), 97 MB
+
+Finished at Jun 27, 2021, 4:21:01 PM
+-----------------------------------------------------
+'allImportsAreUsed' took 04.839,
+'variableIsUsed' took 02.050,
+'exceptionIsUsed' took 094
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 228 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:21:04 PM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 006 (6 ms), 0 MB
+Loading model(s): 01.049 (1049 ms), 61 MB
+GARBAGE_COLLECTION: 309 (309 ms), 0 MB
+execute(): 03.789 (3789 ms), 172 MB
+
+Finished at Jun 27, 2021, 4:21:09 PM
+-----------------------------------------------------
+'variableIsUsed' took 02.068,
+'allImportsAreUsed' took 01.479,
+'exceptionIsUsed' took 075
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 228 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:21:10 PM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 002 (2 ms), 0 MB
+Loading model(s): 874 (874 ms), 65 MB
+GARBAGE_COLLECTION: 335 (335 ms), 0 MB
+execute(): 03.629 (3629 ms), 54 MB
+
+Finished at Jun 27, 2021, 4:21:15 PM
+-----------------------------------------------------
+'variableIsUsed' took 02.005,
+'allImportsAreUsed' took 01.407,
+'exceptionIsUsed' took 065
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 228 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:21:17 PM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 004 (4 ms), 0 MB
+Loading model(s): 956 (956 ms), 62 MB
+GARBAGE_COLLECTION: 358 (358 ms), 0 MB
+execute(): 03.359 (3359 ms), 61 MB
+
+Finished at Jun 27, 2021, 4:21:22 PM
+-----------------------------------------------------
+'variableIsUsed' took 01.650,
+'allImportsAreUsed' took 01.514,
+'exceptionIsUsed' took 058
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 234 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:21:23 PM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 002 (2 ms), 0 MB
+Loading model(s): 01.017 (1017 ms), 62 MB
+GARBAGE_COLLECTION: 322 (322 ms), 0 MB
+execute(): 03.366 (3366 ms), 289 MB
+
+Finished at Jun 27, 2021, 4:21:28 PM
+-----------------------------------------------------
+'variableIsUsed' took 01.902,
+'allImportsAreUsed' took 01.274,
+'exceptionIsUsed' took 051
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 228 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:21:29 PM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 003 (3 ms), 0 MB
+Loading model(s): 01.027 (1027 ms), 97 MB
+GARBAGE_COLLECTION: 408 (408 ms), 0 MB
+execute(): 03.139 (3139 ms), 59 MB
+
+Finished at Jun 27, 2021, 4:21:34 PM
+-----------------------------------------------------
+'variableIsUsed' took 01.802,
+'allImportsAreUsed' took 01.133,
+'exceptionIsUsed' took 046
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 228 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:21:35 PM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 002 (2 ms), 0 MB
+Loading model(s): 852 (852 ms), 89 MB
+GARBAGE_COLLECTION: 337 (337 ms), 0 MB
+execute(): 03.076 (3076 ms), 269 MB
+
+Finished at Jun 27, 2021, 4:21:39 PM
+-----------------------------------------------------
+'variableIsUsed' took 01.716,
+'allImportsAreUsed' took 01.150,
+'exceptionIsUsed' took 045
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 228 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:21:41 PM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 002 (2 ms), 0 MB
+Loading model(s): 862 (862 ms), 100 MB
+GARBAGE_COLLECTION: 332 (332 ms), 0 MB
+execute(): 03.038 (3038 ms), 70 MB
+
+Finished at Jun 27, 2021, 4:21:45 PM
+-----------------------------------------------------
+'variableIsUsed' took 01.722,
+'allImportsAreUsed' took 01.138,
+'exceptionIsUsed' took 042
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 220 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:21:46 PM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 002 (2 ms), 0 MB
+Loading model(s): 911 (911 ms), 89 MB
+GARBAGE_COLLECTION: 350 (350 ms), 0 MB
+execute(): 03.330 (3330 ms), 269 MB
+
+Finished at Jun 27, 2021, 4:21:51 PM
+-----------------------------------------------------
+'variableIsUsed' took 01.876,
+'allImportsAreUsed' took 01.226,
+'exceptionIsUsed' took 061
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 220 MB
+Xmx: 8146 MB
+Starting execution at Jun 27, 2021, 4:21:52 PM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 002 (2 ms), 0 MB
+Loading model(s): 844 (844 ms), 85 MB
+GARBAGE_COLLECTION: 345 (345 ms), 0 MB
+execute(): 03.196 (3196 ms), 284 MB
+
+Finished at Jun 27, 2021, 4:21:57 PM
+-----------------------------------------------------
+'variableIsUsed' took 01.817,
+'allImportsAreUsed' took 01.197,
+'exceptionIsUsed' took 049
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 68 MB
+Xmx: 8146 MB
+Starting execution at Jun 28, 2021, 9:24:23 AM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 174 MB
+Xmx: 8146 MB
+Starting execution at Jun 28, 2021, 9:25:29 AM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 194 MB
+Xmx: 8146 MB
+Starting execution at Jun 28, 2021, 9:25:31 AM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 188 MB
+Xmx: 8146 MB
+Starting execution at Jun 28, 2021, 9:25:33 AM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 188 MB
+Xmx: 8146 MB
+Starting execution at Jun 28, 2021, 9:25:35 AM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 88 MB
+Xmx: 8146 MB
+Starting execution at Jun 28, 2021, 9:27:37 AM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 083 (83 ms), 10 MB
+Loading model(s): 01.687 (1687 ms), 66 MB
+GARBAGE_COLLECTION: 226 (226 ms), 0 MB
+execute(): 05.203 (5203 ms), 199 MB
+
+Finished at Jun 28, 2021, 9:27:45 AM
+-----------------------------------------------------
+'allImportsAreUsed' took 03.259,
+'variableIsUsed' took 01.704,
+'exceptionIsUsed' took 067
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 228 MB
+Xmx: 8146 MB
+Starting execution at Jun 28, 2021, 9:27:47 AM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 74 MB
+Xmx: 8146 MB
+Starting execution at Jun 28, 2021, 9:57:01 AM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 74 MB
+Xmx: 8146 MB
+Starting execution at Jun 28, 2021, 10:14:25 AM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 94 MB
+Xmx: 8146 MB
+Starting execution at Jun 30, 2021, 9:22:50 AM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 211 (211 ms), 10 MB
+Loading model(s): 02.529 (2529 ms), 65 MB
+GARBAGE_COLLECTION: 298 (298 ms), 0 MB
+execute(): 08.234 (8234 ms), 130 MB
+
+Finished at Jun 30, 2021, 9:23:01 AM
+-----------------------------------------------------
+'allImportsAreUsed' took 05.235,
+'variableIsUsed' took 02.688,
+'exceptionIsUsed' took 054
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 214 MB
+Xmx: 8146 MB
+Starting execution at Jun 30, 2021, 9:23:03 AM
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 94 MB
+Xmx: 8146 MB
+Starting execution at Jun 30, 2021, 9:23:17 AM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 104 (104 ms), 10 MB
+Loading model(s): 02.211 (2211 ms), 64 MB
+GARBAGE_COLLECTION: 299 (299 ms), 0 MB
+execute(): 04:22.648 (262648 ms), 242 MB
+
+Finished at Jun 30, 2021, 9:27:43 AM
+-----------------------------------------------------
+'variableIsUsed' took 03:17.702,
+'allImportsAreUsed' took 01:02.769,
+'exceptionIsUsed' took 01.926
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 214 MB
+Xmx: 8146 MB
+Starting execution at Jun 30, 2021, 9:27:45 AM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 002 (2 ms), 0 MB
+Loading model(s): 864 (864 ms), 87 MB
+GARBAGE_COLLECTION: 355 (355 ms), 0 MB
+execute(): 04:19.223 (259223 ms), 120 MB
+
+Finished at Jun 30, 2021, 9:32:05 AM
+-----------------------------------------------------
+'variableIsUsed' took 03:14.779,
+'allImportsAreUsed' took 01:01.923,
+'exceptionIsUsed' took 02.325
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 208 MB
+Xmx: 8146 MB
+Starting execution at Jun 30, 2021, 9:32:06 AM
+-----------------------------------------------------
+-----------------------------------------------------
+Profiled processes:
+Parsing script: 002 (2 ms), 0 MB
+Loading model(s): 938 (938 ms), 94 MB
+GARBAGE_COLLECTION: 349 (349 ms), 0 MB
+execute(): 04:17.932 (257932 ms), 137 MB
+
+Finished at Jun 30, 2021, 9:36:26 AM
+-----------------------------------------------------
+'variableIsUsed' took 03:12.722,
+'allImportsAreUsed' took 01:03.077,
+'exceptionIsUsed' took 01.944
+-----------------------------------------------------
+3203 constraints have not been satisfied.
+-----------------------------------------------------
+Windows 10
+OpenJDK 64-Bit Server VM 14+36-1461
+Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+Logical processors: 8
+Xms: 220 MB
+Xmx: 8146 MB
+Starting execution at Jun 30, 2021, 9:36:27 AM
+-----------------------------------------------------
