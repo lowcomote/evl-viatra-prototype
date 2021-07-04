@@ -1,4 +1,4 @@
-# EOL to Viatra Mapping
+# EVL to Viatra Mapping
 
 This repository is built-on the top of Epsilon framework. It supports the following languages:
 
